@@ -1,0 +1,830 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1101972881697207}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1101972881697207
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4145415099734178}
+  - 114: {fileID: 114393515547963733}
+  m_Layer: 0
+  m_Name: Lilita20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4145415099734178
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101972881697207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114393515547963733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101972881697207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 314941a17a16f2142a48f8b707ba3897, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0.73828125
+    y: 0.48632812
+    width: 0.25
+    height: 0.25
+  mFont:
+    mGlyphs: []
+    mSize: 23
+    mBase: 18
+    mWidth: 256
+    mHeight: 128
+    mSpriteName: Lilita20
+    mSaved:
+    - index: 124
+      x: 2
+      y: 2
+      width: 3
+      height: 24
+      offsetX: 5
+      offsetY: -1
+      advance: 12
+    - index: 125
+      x: 7
+      y: 2
+      width: 6
+      height: 22
+      offsetX: 1
+      offsetY: 1
+      advance: 7
+    - index: 123
+      x: 15
+      y: 2
+      width: 6
+      height: 22
+      offsetX: 0
+      offsetY: 1
+      advance: 7
+    - index: 81
+      x: 23
+      y: 2
+      width: 14
+      height: 19
+      offsetX: 0
+      offsetY: 3
+      advance: 14
+    - index: 47
+      x: 39
+      y: 2
+      width: 12
+      height: 19
+      offsetX: 0
+      offsetY: 2
+      advance: 11
+    - index: 92
+      x: 53
+      y: 2
+      width: 12
+      height: 19
+      offsetX: 0
+      offsetY: 2
+      advance: 11
+    - index: 36
+      x: 67
+      y: 2
+      width: 11
+      height: 19
+      offsetX: 0
+      offsetY: 2
+      advance: 10
+    - index: 106
+      x: 80
+      y: 2
+      width: 8
+      height: 19
+      offsetX: -3
+      offsetY: 3
+      advance: 5
+    - index: 91
+      x: 90
+      y: 2
+      width: 7
+      height: 19
+      offsetX: 1
+      offsetY: 2
+      advance: 7
+    - index: 93
+      x: 99
+      y: 2
+      width: 7
+      height: 19
+      offsetX: 0
+      offsetY: 2
+      advance: 7
+    - index: 87
+      x: 108
+      y: 2
+      width: 19
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 19
+    - index: 77
+      x: 129
+      y: 2
+      width: 17
+      height: 16
+      offsetX: 1
+      offsetY: 3
+      advance: 18
+    - index: 37
+      x: 148
+      y: 2
+      width: 16
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 15
+    - index: 64
+      x: 166
+      y: 2
+      width: 16
+      height: 16
+      offsetX: 0
+      offsetY: 4
+      advance: 17
+    - index: 89
+      x: 184
+      y: 2
+      width: 14
+      height: 16
+      offsetX: -1
+      offsetY: 3
+      advance: 12
+    - index: 79
+      x: 200
+      y: 2
+      width: 14
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 13
+    - index: 88
+      x: 216
+      y: 2
+      width: 14
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 13
+    - index: 48
+      x: 232
+      y: 2
+      width: 13
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 12
+    - index: 38
+      x: 2
+      y: 28
+      width: 13
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 13
+    - index: 75
+      x: 17
+      y: 28
+      width: 12
+      height: 16
+      offsetX: 1
+      offsetY: 3
+      advance: 12
+    - index: 71
+      x: 31
+      y: 28
+      width: 12
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 12
+    - index: 67
+      x: 45
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 11
+    - index: 100
+      x: 58
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 11
+    - index: 107
+      x: 71
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 10
+    - index: 54
+      x: 84
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 11
+    - index: 56
+      x: 97
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 11
+    - index: 57
+      x: 110
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 11
+    - index: 78
+      x: 123
+      y: 28
+      width: 11
+      height: 16
+      offsetX: 1
+      offsetY: 3
+      advance: 12
+    - index: 63
+      x: 136
+      y: 28
+      width: 10
+      height: 16
+      offsetX: 1
+      offsetY: 3
+      advance: 11
+    - index: 83
+      x: 148
+      y: 28
+      width: 10
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 10
+    - index: 104
+      x: 160
+      y: 28
+      width: 10
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 10
+    - index: 51
+      x: 172
+      y: 28
+      width: 10
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 10
+    - index: 98
+      x: 184
+      y: 28
+      width: 9
+      height: 16
+      offsetX: 1
+      offsetY: 3
+      advance: 10
+    - index: 40
+      x: 195
+      y: 28
+      width: 6
+      height: 16
+      offsetX: 1
+      offsetY: 4
+      advance: 8
+    - index: 41
+      x: 203
+      y: 28
+      width: 6
+      height: 16
+      offsetX: 1
+      offsetY: 4
+      advance: 8
+    - index: 105
+      x: 211
+      y: 28
+      width: 5
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 5
+    - index: 108
+      x: 218
+      y: 28
+      width: 5
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 5
+    - index: 33
+      x: 225
+      y: 28
+      width: 5
+      height: 16
+      offsetX: 0
+      offsetY: 3
+      advance: 5
+    - index: 65
+      x: 232
+      y: 28
+      width: 13
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 13
+    - index: 86
+      x: 2
+      y: 46
+      width: 13
+      height: 15
+      offsetX: 0
+      offsetY: 3
+      advance: 13
+    - index: 85
+      x: 17
+      y: 46
+      width: 12
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 12
+    - index: 52
+      x: 31
+      y: 46
+      width: 12
+      height: 15
+      offsetX: 0
+      offsetY: 3
+      advance: 11
+    - index: 80
+      x: 45
+      y: 46
+      width: 11
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 11
+    - index: 82
+      x: 58
+      y: 46
+      width: 11
+      height: 15
+      offsetX: 1
+      offsetY: 4
+      advance: 11
+    - index: 112
+      x: 71
+      y: 46
+      width: 11
+      height: 15
+      offsetX: 0
+      offsetY: 7
+      advance: 11
+    - index: 121
+      x: 84
+      y: 46
+      width: 11
+      height: 15
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 72
+      x: 97
+      y: 46
+      width: 11
+      height: 15
+      offsetX: 1
+      offsetY: 3
+      advance: 12
+    - index: 84
+      x: 110
+      y: 46
+      width: 10
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 10
+    - index: 103
+      x: 122
+      y: 46
+      width: 10
+      height: 15
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 113
+      x: 134
+      y: 46
+      width: 10
+      height: 15
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 50
+      x: 146
+      y: 46
+      width: 10
+      height: 15
+      offsetX: 0
+      offsetY: 3
+      advance: 10
+    - index: 53
+      x: 158
+      y: 46
+      width: 10
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 10
+    - index: 55
+      x: 170
+      y: 46
+      width: 10
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 10
+    - index: 70
+      x: 182
+      y: 46
+      width: 9
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 9
+    - index: 74
+      x: 193
+      y: 46
+      width: 9
+      height: 15
+      offsetX: 0
+      offsetY: 4
+      advance: 9
+    - index: 76
+      x: 204
+      y: 46
+      width: 9
+      height: 15
+      offsetX: 0
+      offsetY: 3
+      advance: 8
+    - index: 102
+      x: 215
+      y: 46
+      width: 9
+      height: 15
+      offsetX: 0
+      offsetY: 3
+      advance: 7
+    - index: 35
+      x: 226
+      y: 46
+      width: 15
+      height: 14
+      offsetX: 1
+      offsetY: 4
+      advance: 16
+    - index: 66
+      x: 243
+      y: 46
+      width: 11
+      height: 14
+      offsetX: 1
+      offsetY: 4
+      advance: 11
+    - index: 68
+      x: 2
+      y: 63
+      width: 11
+      height: 14
+      offsetX: 1
+      offsetY: 4
+      advance: 12
+    - index: 90
+      x: 15
+      y: 63
+      width: 11
+      height: 14
+      offsetX: 0
+      offsetY: 4
+      advance: 11
+    - index: 69
+      x: 28
+      y: 63
+      width: 9
+      height: 14
+      offsetX: 1
+      offsetY: 4
+      advance: 9
+    - index: 73
+      x: 39
+      y: 63
+      width: 9
+      height: 14
+      offsetX: 0
+      offsetY: 4
+      advance: 8
+    - index: 116
+      x: 50
+      y: 63
+      width: 8
+      height: 14
+      offsetX: 0
+      offsetY: 5
+      advance: 7
+    - index: 49
+      x: 60
+      y: 63
+      width: 8
+      height: 14
+      offsetX: 0
+      offsetY: 4
+      advance: 8
+    - index: 59
+      x: 70
+      y: 63
+      width: 5
+      height: 14
+      offsetX: 0
+      offsetY: 7
+      advance: 5
+    - index: 60
+      x: 77
+      y: 63
+      width: 7
+      height: 13
+      offsetX: 1
+      offsetY: 5
+      advance: 9
+    - index: 62
+      x: 86
+      y: 63
+      width: 7
+      height: 13
+      offsetX: 1
+      offsetY: 5
+      advance: 9
+    - index: 109
+      x: 95
+      y: 63
+      width: 15
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 15
+    - index: 119
+      x: 112
+      y: 63
+      width: 15
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 15
+    - index: 43
+      x: 129
+      y: 63
+      width: 12
+      height: 12
+      offsetX: 0
+      offsetY: 5
+      advance: 12
+    - index: 97
+      x: 143
+      y: 63
+      width: 11
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 110
+      x: 156
+      y: 63
+      width: 11
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 11
+    - index: 117
+      x: 169
+      y: 63
+      width: 11
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 118
+      x: 182
+      y: 63
+      width: 11
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 120
+      x: 195
+      y: 63
+      width: 11
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 11
+    - index: 101
+      x: 208
+      y: 63
+      width: 10
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 9
+    - index: 111
+      x: 220
+      y: 63
+      width: 10
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+    - index: 99
+      x: 232
+      y: 63
+      width: 9
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 8
+    - index: 115
+      x: 243
+      y: 63
+      width: 9
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 9
+    - index: 114
+      x: 2
+      y: 79
+      width: 8
+      height: 12
+      offsetX: 0
+      offsetY: 7
+      advance: 7
+    - index: 58
+      x: 12
+      y: 79
+      width: 4
+      height: 12
+      offsetX: 1
+      offsetY: 7
+      advance: 5
+    - index: 122
+      x: 18
+      y: 79
+      width: 9
+      height: 10
+      offsetX: 0
+      offsetY: 8
+      advance: 9
+    - index: 94
+      x: 29
+      y: 79
+      width: 13
+      height: 8
+      offsetX: 0
+      offsetY: 4
+      advance: 13
+    - index: 42
+      x: 44
+      y: 79
+      width: 9
+      height: 8
+      offsetX: 1
+      offsetY: 4
+      advance: 11
+    - index: 61
+      x: 55
+      y: 79
+      width: 10
+      height: 7
+      offsetX: 1
+      offsetY: 8
+      advance: 11
+    - index: 44
+      x: 67
+      y: 79
+      width: 5
+      height: 7
+      offsetX: 1
+      offsetY: 14
+      advance: 6
+    - index: 34
+      x: 74
+      y: 79
+      width: 7
+      height: 6
+      offsetX: 1
+      offsetY: 4
+      advance: 9
+    - index: 39
+      x: 83
+      y: 79
+      width: 4
+      height: 6
+      offsetX: 1
+      offsetY: 4
+      advance: 6
+    - index: 96
+      x: 89
+      y: 79
+      width: 5
+      height: 5
+      offsetX: 1
+      offsetY: 3
+      advance: 7
+    - index: 46
+      x: 96
+      y: 79
+      width: 5
+      height: 5
+      offsetX: 0
+      offsetY: 14
+      advance: 4
+    - index: 45
+      x: 103
+      y: 79
+      width: 10
+      height: 4
+      offsetX: 0
+      offsetY: 11
+      advance: 10
+    - index: 126
+      x: 115
+      y: 79
+      width: 9
+      height: 4
+      offsetX: 0
+      offsetY: 10
+      advance: 9
+    - index: 95
+      x: 126
+      y: 79
+      width: 12
+      height: 3
+      offsetX: 0
+      offsetY: 18
+      advance: 12
+    - index: 32
+      x: 140
+      y: 79
+      width: 0
+      height: 0
+      offsetX: -117
+      offsetY: 138
+      advance: 3
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 114227712074521707, guid: 3f1b98d193615a04dbaa9a5d6992d5f3, type: 2}
+  mReplacement: {fileID: 0}

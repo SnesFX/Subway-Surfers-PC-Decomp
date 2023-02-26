@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1566489024608740}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1566489024608740
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4389636629591787}
+  - 114: {fileID: 114227712074521707}
+  m_Layer: 0
+  m_Name: FontAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4389636629591787
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566489024608740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114227712074521707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566489024608740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 314941a17a16f2142a48f8b707ba3897, type: 2}
+  sprites:
+  - name: Lilita10
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 71
+      width: 124
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 629
+      y: 71
+      width: 124
+      height: 59
+    paddingLeft: 0.016129032
+    paddingRight: 0.016129032
+    paddingTop: 0.033898305
+    paddingBottom: 0.050847456
+  - name: Lilita20
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 137
+      width: 252
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 758
+      y: 137
+      width: 252
+      height: 89
+    paddingLeft: 0.007936508
+    paddingRight: 0.007936508
+    paddingTop: 0.02247191
+    paddingBottom: 0.41573033
+  - name: Lilita15
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 25
+      width: 122
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 25
+      width: 122
+      height: 105
+    paddingLeft: 0.016393442
+    paddingRight: 0.032786883
+    paddingTop: 0.01904762
+    paddingBottom: 0.2
+  - name: Lilita30
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 32
+      width: 252
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 32
+      width: 252
+      height: 161
+    paddingLeft: 0.007936508
+    paddingRight: 0.007936508
+    paddingTop: 0.0124223605
+    paddingBottom: 0.57763976
+  - name: Titan60
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 194
+      width: 505
+      height: 318
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 194
+      width: 505
+      height: 318
+    paddingLeft: 0.003960396
+    paddingRight: 0.00990099
+    paddingTop: 0.006289308
+    paddingBottom: 0.6037736
+  - name: Titan30
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 11
+      width: 251
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 11
+      width: 251
+      height: 182
+    paddingLeft: 0.007968128
+    paddingRight: 0.011952192
+    paddingTop: 0.010989011
+    paddingBottom: 0.3956044
+  - name: Titan20
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 131
+      width: 251
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 131
+      width: 251
+      height: 95
+    paddingLeft: 0.007968128
+    paddingRight: 0.011952192
+    paddingTop: 0.021052632
+    paddingBottom: 0.3263158
+  - name: Lilita60
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 227
+      width: 501
+      height: 285
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 227
+      width: 501
+      height: 285
+    paddingLeft: 0.003992016
+    paddingRight: 0.017964073
+    paddingTop: 0.007017544
+    paddingBottom: 0.7894737
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

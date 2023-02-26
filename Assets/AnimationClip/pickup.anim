@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: pickup
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.5, y: 0.5, z: 1}
+        inSlope: {x: 11.59424, y: 11.59424, z: 0}
+        outSlope: {x: 11.59424, y: 11.59424, z: 0}
+        tangentMode: 0
+      - time: 0.04
+        value: {x: 0.9637696, y: 0.9637696, z: 1}
+        inSlope: {x: 9.374998, y: 9.374998, z: 0}
+        outSlope: {x: 9.374998, y: 9.374998, z: 0}
+        tangentMode: 0
+      - time: 0.08
+        value: {x: 1.2499999, y: 1.2499999, z: 1}
+        inSlope: {x: 0.9483793, y: 0.9483793, z: 0}
+        outSlope: {x: 0.9483793, y: 0.9483793, z: 0}
+        tangentMode: 0
+      - time: 0.12
+        value: {x: 1.03964, y: 1.03964, z: 1}
+        inSlope: {x: -8.64123, y: -8.64123, z: 0}
+        outSlope: {x: -8.64123, y: -8.64123, z: 0}
+        tangentMode: 0
+      - time: 0.16
+        value: {x: 0.55870163, y: 0.55870163, z: 1}
+        inSlope: {x: -12.995499, y: -12.995499, z: 0}
+        outSlope: {x: -12.995499, y: -12.995499, z: 0}
+        tangentMode: 0
+      - time: 0.19999999
+        value: {x: 7.11088E-08, y: 7.11088E-08, z: 1}
+        inSlope: {x: -13.967537, y: -13.967537, z: 0}
+        outSlope: {x: -13.967537, y: -13.967537, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_FloatCurves: []
+  m_SampleRate: 25
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: -10540240, y: -1527104, z: -3.460295E-06}
+    m_Extent: {x: 111883470, y: 127501060, z: 3.460295E-06}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

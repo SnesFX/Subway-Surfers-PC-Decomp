@@ -1,0 +1,2436 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1439335698853219}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1439335698853219
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4418584805317651}
+  - 114: {fileID: 114626226437404659}
+  m_Layer: 0
+  m_Name: HighResAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418584805317651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439335698853219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114626226437404659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439335698853219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: ab1db023d36567e489953c8a53d1b239, type: 2}
+  sprites:
+  - name: button_generic_2_outline
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 312
+      width: 68
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 472
+      y: 338
+      width: 12
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.015873017
+    paddingBottom: 0
+  - name: icon_notification
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 319
+      width: 38
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 319
+      width: 38
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_coins
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 464
+      width: 57
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 464
+      width: 57
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0.01754386
+    paddingTop: 0
+    paddingBottom: 0.018867925
+  - name: icon_menu
+    outer:
+      serializedVersion: 2
+      x: 671
+      y: 526
+      width: 67
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 671
+      y: 526
+      width: 67
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0.014925373
+    paddingTop: 0
+    paddingBottom: 0.018867925
+  - name: icon_upgrades
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 406
+      width: 58
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 406
+      width: 58
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_characters
+    outer:
+      serializedVersion: 2
+      x: 526
+      y: 524
+      width: 75
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 526
+      y: 524
+      width: 75
+      height: 55
+    paddingLeft: 0.026666667
+    paddingRight: 0.013333334
+    paddingTop: 0.018181818
+    paddingBottom: 0
+  - name: icon_leaderboard
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 469
+      width: 42
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 469
+      width: 42
+      height: 63
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.015873017
+    paddingBottom: 0
+  - name: icon_friends
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 405
+      width: 57
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 405
+      width: 57
+      height: 53
+    paddingLeft: 0.01754386
+    paddingRight: 0
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: icon_trophies
+    outer:
+      serializedVersion: 2
+      x: 879
+      y: 462
+      width: 55
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 879
+      y: 462
+      width: 55
+      height: 55
+    paddingLeft: 0.018181818
+    paddingRight: 0
+    paddingTop: 0.018181818
+    paddingBottom: 0
+  - name: button_generic_1
+    outer:
+      serializedVersion: 2
+      x: 607
+      y: 845
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 855
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin2d
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 124
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 124
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_arrow_right
+    outer:
+      serializedVersion: 2
+      x: 865
+      y: 756
+      width: 72
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 865
+      y: 756
+      width: 72
+      height: 88
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_settings
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 518
+      width: 79
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 518
+      width: 79
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0.012658228
+    paddingTop: 0
+    paddingBottom: 0.016393442
+  - name: icon_facebook
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 395
+      width: 35
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 395
+      width: 35
+      height: 73
+    paddingLeft: 0.74285716
+    paddingRight: 0.6571429
+    paddingTop: 0.08219178
+    paddingBottom: 0.06849315
+  - name: icon_inviteFriend
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 522
+      width: 58
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 522
+      width: 58
+      height: 57
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01754386
+    paddingBottom: 0
+  - name: icon_autoBrag
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 208
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 208
+      width: 46
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.021276595
+    paddingBottom: 0
+  - name: icon_headstart.psd
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 658
+      width: 71
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 945
+      y: 658
+      width: 71
+      height: 71
+    paddingLeft: 0.014084507
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.014084507
+  - name: icon_jetpack
+    outer:
+      serializedVersion: 2
+      x: 800
+      y: 658
+      width: 72
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 658
+      width: 72
+      height: 71
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.014084507
+  - name: icon_doubleDigits
+    outer:
+      serializedVersion: 2
+      x: 873
+      y: 658
+      width: 71
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 873
+      y: 658
+      width: 71
+      height: 71
+    paddingLeft: 0
+    paddingRight: 0.014084507
+    paddingTop: 0
+    paddingBottom: 0.014084507
+  - name: button_arrow_left
+    outer:
+      serializedVersion: 2
+      x: 938
+      y: 756
+      width: 72
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 938
+      y: 756
+      width: 72
+      height: 88
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_shadow_1
+    outer:
+      serializedVersion: 2
+      x: 881
+      y: 425
+      width: 35
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 435
+      width: 15
+      height: 11
+    paddingLeft: 0
+    paddingRight: 0.028571429
+    paddingTop: 0
+    paddingBottom: 0.030303031
+  - name: background_ingame_notification_round
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 218
+      width: 52
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 193
+      y: 238
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pause
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 278
+      width: 26
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 278
+      width: 26
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_with_background
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 304
+      width: 51
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 304
+      width: 51
+      height: 49
+    paddingLeft: 0.019607844
+    paddingRight: 0
+    paddingTop: 0.020408163
+    paddingBottom: 0
+  - name: icon_star
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 242
+      width: 39
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 242
+      width: 39
+      height: 37
+    paddingLeft: 0
+    paddingRight: 0.025641026
+    paddingTop: 0
+    paddingBottom: 0.027027028
+  - name: button_gray_gradient
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 541
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 994
+      y: 541
+      width: 5
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_add_funds
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 85
+      width: 34
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 517
+      y: 85
+      width: 2
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_back
+    outer:
+      serializedVersion: 2
+      x: 694
+      y: 416
+      width: 61
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 694
+      y: 416
+      width: 61
+      height: 42
+    paddingLeft: 0.016393442
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_reveal
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 742
+      width: 102
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 742
+      width: 102
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_shopItem_gray
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 527
+      width: 3
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 567
+      width: 1
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_friendsCollect
+    outer:
+      serializedVersion: 2
+      x: 220
+      y: 480
+      width: 3
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 221
+      y: 482
+      width: 1
+      height: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: splash
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 616
+      width: 224
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 616
+      width: 224
+      height: 228
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dottedLine
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 856
+      width: 26
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 856
+      width: 26
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_select
+    outer:
+      serializedVersion: 2
+      x: 1014
+      y: 924
+      width: 3
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 944
+      width: 1
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_gameCenter
+    outer:
+      serializedVersion: 2
+      x: 597
+      y: 760
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 597
+      y: 760
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scoreboard
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 845
+      width: 319
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 845
+      width: 319
+      height: 179
+    paddingLeft: 0.0031347962
+    paddingRight: 0
+    paddingTop: 0.005586592
+    paddingBottom: 0
+  - name: button_green_buy
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 533
+      width: 50
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 189
+      y: 553
+      width: 14
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_shopItem_green
+    outer:
+      serializedVersion: 2
+      x: 365
+      y: 426
+      width: 3
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 446
+      width: 1
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_tick_small
+    outer:
+      serializedVersion: 2
+      x: 632
+      y: 850
+      width: 25
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 632
+      y: 850
+      width: 25
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0.04
+    paddingTop: 0.05263158
+    paddingBottom: 0
+  - name: icon_facebook_small
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 194
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 194
+      width: 44
+      height: 44
+    paddingLeft: 0.045454547
+    paddingRight: 0.045454547
+    paddingTop: 0.045454547
+    paddingBottom: 0.045454547
+  - name: button_fill_brag
+    outer:
+      serializedVersion: 2
+      x: 216
+      y: 478
+      width: 3
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 498
+      width: 1
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_headstart500
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 459
+      width: 56
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 459
+      width: 56
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01724138
+    paddingBottom: 0.01724138
+  - name: button_fill_menuShop
+    outer:
+      serializedVersion: 2
+      x: 1015
+      y: 760
+      width: 3
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 1016
+      y: 780
+      width: 1
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_menuCrew
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 438
+      width: 3
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 458
+      width: 1
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_play
+    outer:
+      serializedVersion: 2
+      x: 1011
+      y: 760
+      width: 3
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 1011
+      y: 760
+      width: 3
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_mission_firstscreen
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 56
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 56
+      width: 58
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_settings_firstscreen
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 61
+      width: 57
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 61
+      width: 57
+      height: 57
+    paddingLeft: 0.01754386
+    paddingRight: 0
+    paddingTop: 0.01754386
+    paddingBottom: 0
+  - name: button_fill_selected
+    outer:
+      serializedVersion: 2
+      x: 1018
+      y: 924
+      width: 3
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1019
+      y: 926
+      width: 1
+      height: 96
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_shop
+    outer:
+      serializedVersion: 2
+      x: 607
+      y: 870
+      width: 240
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 607
+      y: 870
+      width: 240
+      height: 154
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: whitebox
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 846
+      width: 3
+      height: 3
+    inner:
+      serializedVersion: 2
+      x: 332
+      y: 847
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: progressbar_background
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 51
+      width: 37
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 529
+      y: 63
+      width: 7
+      height: 7
+    paddingLeft: 0
+    paddingRight: 0.027027028
+    paddingTop: 0
+    paddingBottom: 0.030303031
+  - name: progressbar_bar_off
+    outer:
+      serializedVersion: 2
+      x: 679
+      y: 851
+      width: 16
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 683
+      y: 851
+      width: 8
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: progressbar_bar_on
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 847
+      width: 20
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 666
+      y: 857
+      width: 4
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_generic_3_outline
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 651
+      width: 76
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 395
+      y: 671
+      width: 26
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_coin_pouch_small
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 118
+      width: 31
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 118
+      width: 31
+      height: 42
+    paddingLeft: 0.06451613
+    paddingRight: 0.09677419
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_friendslogin
+    outer:
+      serializedVersion: 2
+      x: 1018
+      y: 859
+      width: 3
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1019
+      y: 879
+      width: 1
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_coin_pouch_large
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 324
+      width: 52
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 324
+      width: 52
+      height: 70
+    paddingLeft: 0.057692308
+    paddingRight: 0.057692308
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_friends_inactive_gray
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 360
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 370
+      width: 20
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_friendsCollectAll
+    outer:
+      serializedVersion: 2
+      x: 1014
+      y: 859
+      width: 3
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 861
+      width: 1
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_menu_purple
+    outer:
+      serializedVersion: 2
+      x: 739
+      y: 526
+      width: 67
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 739
+      y: 526
+      width: 67
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0.014925373
+    paddingTop: 0
+    paddingBottom: 0.018867925
+  - name: icon_back_purple
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 416
+      width: 61
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 756
+      y: 416
+      width: 61
+      height: 42
+    paddingLeft: 0.016393442
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_soundOn
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 468
+      width: 63
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 815
+      y: 468
+      width: 63
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0.015873017
+    paddingTop: 0.020408163
+    paddingBottom: 0
+  - name: icon_soundOff
+    outer:
+      serializedVersion: 2
+      x: 632
+      y: 409
+      width: 61
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 632
+      y: 409
+      width: 61
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0.04918033
+    paddingTop: 0.020408163
+    paddingBottom: 0
+  - name: icon_inviteFriends
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 461
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 461
+      width: 57
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0.05263158
+    paddingTop: 0
+    paddingBottom: 0.035714287
+  - name: icon_autoNotifications
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 269
+      width: 53
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 269
+      width: 53
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0.056603774
+    paddingTop: 0
+    paddingBottom: 0.037037037
+  - name: button_sendMessage
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 730
+      width: 110
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 730
+      width: 110
+      height: 114
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_autoMessage_off
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 4
+      width: 62
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 4
+      width: 62
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.019607844
+  - name: button_close
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 115
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 115
+      width: 58
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_autoMessage_on
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 466
+      width: 62
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 466
+      width: 62
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.019607844
+  - name: button_post
+    outer:
+      serializedVersion: 2
+      x: 486
+      y: 730
+      width: 110
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 730
+      width: 110
+      height: 114
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_brag
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 10
+      width: 128
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 281
+      y: 10
+      width: 12
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_tick
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 161
+      width: 43
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 161
+      width: 43
+      height: 32
+    paddingLeft: 0.023255814
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_logIn
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 781
+      width: 103
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 732
+      y: 817
+      width: -7
+      height: -9
+    paddingLeft: 0
+    paddingRight: 0.009708738
+    paddingTop: 0
+    paddingBottom: 0.015873017
+  - name: icon_gameCenter_small
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 354
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 354
+      width: 50
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_ingame_beatThis
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 175
+      width: 42
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 191
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dottedLine2
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 850
+      width: 10
+      height: 5
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 850
+      width: 10
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.2
+    paddingBottom: 0
+  - name: background_star
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 654
+      width: 79
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 654
+      width: 79
+      height: 75
+    paddingLeft: 0
+    paddingRight: 0.012658228
+    paddingTop: 0.013333334
+    paddingBottom: 0
+  - name: button_facebook_huge
+    outer:
+      serializedVersion: 2
+      x: 848
+      y: 855
+      width: 165
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 848
+      y: 855
+      width: 165
+      height: 169
+    paddingLeft: 0.006060606
+    paddingRight: 0.012121212
+    paddingTop: 0.00591716
+    paddingBottom: 0.01183432
+  - name: icon_coin_large
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 4
+      width: 58
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 4
+      width: 58
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_gamecenter_huge
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 161
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 161
+      height: 165
+    paddingLeft: 0.0124223605
+    paddingRight: 0.01863354
+    paddingTop: 0.012121212
+    paddingBottom: 0.018181818
+  - name: icon_autoMessage_blue
+    outer:
+      serializedVersion: 2
+      x: 630
+      y: 466
+      width: 62
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 630
+      y: 466
+      width: 62
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.019607844
+  - name: icon_menu_house_blue
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 119
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 119
+      width: 63
+      height: 63
+    paddingLeft: 0
+    paddingRight: 0.015873017
+    paddingTop: 0
+    paddingBottom: 0.015873017
+  - name: icon_menu_house_purple
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 183
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 183
+      width: 63
+      height: 63
+    paddingLeft: 0
+    paddingRight: 0.015873017
+    paddingTop: 0
+    paddingBottom: 0.015873017
+  - name: button_close_big
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 762
+      width: 78
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 762
+      width: 78
+      height: 82
+    paddingLeft: 0.07692308
+    paddingRight: 0.07692308
+    paddingTop: 0.036585364
+    paddingBottom: 0.06097561
+  - name: button_fill_menuSocial
+    outer:
+      serializedVersion: 2
+      x: 320
+      y: 861
+      width: 286
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 320
+      y: 861
+      width: 286
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.006134969
+  - name: icon_upgrades_coinMagnet
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_superSneakers
+    outer:
+      serializedVersion: 2
+      x: 943
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 943
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_letterPickup
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_headstart2000
+    outer:
+      serializedVersion: 2
+      x: 517
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 517
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_jetpack
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 225
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 225
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_mysteryBox
+    outer:
+      serializedVersion: 2
+      x: 659
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 659
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_doubleScore
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_headstart500
+    outer:
+      serializedVersion: 2
+      x: 801
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 801
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_skipMission3
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 367
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 367
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_skipMission2
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 509
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 509
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_skipMission1
+    outer:
+      serializedVersion: 2
+      x: 872
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 872
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_hoverboard
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 580
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 580
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_ingame_transparent_withStroke
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 161
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 177
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_ingame_headStart2000
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 79
+      width: 104
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 79
+      width: 104
+      height: 159
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.006289308
+  - name: button_ingame_headStart500
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 239
+      width: 105
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 239
+      width: 105
+      height: 161
+    paddingLeft: 0
+    paddingRight: 0.00952381
+    paddingTop: 0
+    paddingBottom: 0.0062111802
+  - name: icon_zzz
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 733
+      width: 29
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 733
+      width: 29
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0.03448276
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poke
+    outer:
+      serializedVersion: 2
+      x: 597
+      y: 732
+      width: 74
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 597
+      y: 732
+      width: 74
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.037037037
+    paddingBottom: 0
+  - name: frame_friendsPicture
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 81
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 89
+      width: 20
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_ingame_button
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 376
+      width: 68
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 400
+      width: 14
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_ingame_popup
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 12
+      width: 68
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 401
+      y: 38
+      width: 16
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_brag_dialog
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 485
+      width: 30
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 993
+      y: 485
+      width: 30
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0.06666667
+    paddingTop: 0
+    paddingBottom: 0.0625
+  - name: icon_coinPack_2
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 154
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 154
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_coinPack_3
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 83
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 83
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_coinPack_1
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 438
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 438
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_friend
+    outer:
+      serializedVersion: 2
+      x: 696
+      y: 853
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 700
+      y: 857
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_fill_info
+    outer:
+      serializedVersion: 2
+      x: 365
+      y: 523
+      width: 3
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 524
+      width: 1
+      height: 98
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scrollBar
+    outer:
+      serializedVersion: 2
+      x: 320
+      y: 846
+      width: 10
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 320
+      y: 852
+      width: 10
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trophy_spike
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 401
+      width: 139
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 401
+      width: 139
+      height: 222
+    paddingLeft: 0.107913665
+    paddingRight: 0.1294964
+    paddingTop: 0.009009009
+    paddingBottom: 0
+  - name: background_tokens_gradient
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 47
+      width: 3
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 574
+      y: 48
+      width: 1
+      height: 228
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: checkbox_checked_mission
+    outer:
+      serializedVersion: 2
+      x: 720
+      y: 663
+      width: 79
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 720
+      y: 663
+      width: 79
+      height: 66
+    paddingLeft: 0.025316456
+    paddingRight: 0.012658228
+    paddingTop: 0.030303031
+    paddingBottom: 0
+  - name: checkbox_mission
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 247
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 247
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trophy_yutani
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 395
+      width: 172
+      height: 220
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 395
+      width: 172
+      height: 220
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.018181818
+    paddingBottom: 0
+  - name: trophy_fresh
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 174
+      width: 170
+      height: 220
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 174
+      width: 170
+      height: 220
+    paddingLeft: 0
+    paddingRight: 0.011764706
+    paddingTop: 0.018181818
+    paddingBottom: 0
+  - name: trophy_tricky
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 624
+      width: 149
+      height: 220
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 624
+      width: 149
+      height: 220
+    paddingLeft: 0.06711409
+    paddingRight: 0.087248325
+    paddingTop: 0.018181818
+    paddingBottom: 0
+  - name: background_tokens_gray_gradient
+    outer:
+      serializedVersion: 2
+      x: 713
+      y: 849
+      width: 3
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 714
+      y: 850
+      width: 1
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ingame_bar_background
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 16
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 32
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ingame_bar_unit
+    outer:
+      serializedVersion: 2
+      x: 209
+      y: 438
+      width: 12
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 209
+      y: 438
+      width: 12
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_upgrades_hoverboard_plus
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 296
+      width: 70
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 296
+      width: 70
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trophy_fresh_token
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 528
+      width: 68
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 528
+      width: 68
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.019607844
+  - name: trophy_tricky_token
+    outer:
+      serializedVersion: 2
+      x: 602
+      y: 526
+      width: 68
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 602
+      y: 526
+      width: 68
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.018867925
+  - name: trophy_yutani_token
+    outer:
+      serializedVersion: 2
+      x: 532
+      y: 658
+      width: 81
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 532
+      y: 658
+      width: 81
+      height: 71
+    paddingLeft: 0
+    paddingRight: 0.012345679
+    paddingTop: 0.014084507
+    paddingBottom: 0.028169014
+  - name: trophy_spike_token
+    outer:
+      serializedVersion: 2
+      x: 614
+      y: 677
+      width: 105
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 614
+      y: 677
+      width: 105
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0.00952381
+    paddingTop: 0.01923077
+    paddingBottom: 0.01923077
+  - name: background_buy_full
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 280
+      width: 40
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 292
+      width: 8
+      height: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_friend_picture
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 340
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 340
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_rate
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 463
+      width: 58
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 756
+      y: 463
+      width: 58
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_rank_same
+    outer:
+      serializedVersion: 2
+      x: 985
+      y: 426
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 985
+      y: 426
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_rank_down
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 373
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 373
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_rank_up
+    outer:
+      serializedVersion: 2
+      x: 952
+      y: 426
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 952
+      y: 426
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_headstart2000
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 520
+      width: 57
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 520
+      width: 57
+      height: 59
+    paddingLeft: 0.01754386
+    paddingRight: 0.03508772
+    paddingTop: 0
+    paddingBottom: 0.016949153
+  - name: background_ingame_button_red
+    outer:
+      serializedVersion: 2
+      x: 446
+      y: 447
+      width: 68
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 446
+      y: 447
+      width: 68
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_hoverboard
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 421
+      width: 62
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 818
+      y: 421
+      width: 62
+      height: 37
+    paddingLeft: 0.016129032
+    paddingRight: 0.016129032
+    paddingTop: 0.027027028
+    paddingBottom: 0.054054055
+  - name: icon_medal_bronze
+    outer:
+      serializedVersion: 2
+      x: 816
+      y: 734
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 816
+      y: 734
+      width: 27
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0.037037037
+    paddingTop: 0.037037037
+    paddingBottom: 0
+  - name: icon_medal_silver
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 307
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 307
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_medal_gold
+    outer:
+      serializedVersion: 2
+      x: 917
+      y: 425
+      width: 34
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 917
+      y: 425
+      width: 34
+      height: 33
+    paddingLeft: 0.029411765
+    paddingRight: 0.029411765
+    paddingTop: 0.030303031
+    paddingBottom: 0.060606062
+  - name: icon_close
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 256
+      width: 50
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 256
+      width: 50
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.021276595
+  mCoordinates: 0
+  mPixelSize: 0.5
+  mReplacement: {fileID: 0}

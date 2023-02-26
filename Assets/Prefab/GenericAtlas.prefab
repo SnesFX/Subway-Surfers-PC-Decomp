@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1317155365954500}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1317155365954500
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4120168550758179}
+  - 114: {fileID: 114144655448037009}
+  m_Layer: 0
+  m_Name: GenericAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120168550758179
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317155365954500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114144655448037009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317155365954500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 6d2b822a77699c74192a83e41eb377bf, type: 2}
+  sprites:
+  - name: glow_inner
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 227
+      width: 29
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 219
+      y: 228
+      width: 27
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_glow
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 127
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 131
+      width: 12
+      height: 10
+    paddingLeft: 0.8333333
+    paddingRight: 0.6666667
+    paddingTop: 0.875
+    paddingBottom: 0.625
+  - name: whitebox3x3
+    outer:
+      serializedVersion: 2
+      x: 54
+      y: 15
+      width: 3
+      height: 3
+    inner:
+      serializedVersion: 2
+      x: 55
+      y: 16
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_spiral_lo
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 113
+      width: 18
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 113
+      width: 18
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_spiral_hi
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 180
+      width: 36
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 180
+      width: 36
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poke_lo
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 37
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 37
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poke_hi
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 152
+      width: 74
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 152
+      width: 74
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.037037037
+    paddingBottom: 0
+  - name: icon_zzz_lo
+    outer:
+      serializedVersion: 2
+      x: 38
+      y: 4
+      width: 15
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 38
+      y: 4
+      width: 15
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_zzz_hi
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 198
+      width: 29
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 198
+      width: 29
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0.03448276
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_decal8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 180
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 180
+      height: 237
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.042194095
+    paddingBottom: 0.029535865
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
