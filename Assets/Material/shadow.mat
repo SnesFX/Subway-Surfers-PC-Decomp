@@ -4,9 +4,8 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: shadow
   m_Shader: {fileID: 4800000, guid: 95f0835e3e8c82340b886ececcbd45fd, type: 3}
   m_ShaderKeywords: 
@@ -26,5 +25,5 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distort: {r: -0.0005000023, g: -0.00030000138, b: 0, a: 0}
+    - _Distort: {r: -0.00060787, g: -0.00015826817, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}

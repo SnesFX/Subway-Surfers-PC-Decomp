@@ -146,7 +146,6 @@ public class AdColony : MonoBehaviour
 			UnityEngine.Object.DontDestroyOnLoad(gameObject);
 			bridgeDelegate = gameObject.AddComponent<AdColony>();
 		}
-		bridge_initAdColony(appId, zoneId);
 	}
 
 	public static bool VirtualCurrencyAwardAvailable()

@@ -4,9 +4,8 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: blob shadow
   m_Shader: {fileID: 4800000, guid: f91c0534265274447ae4a4229add2764, type: 3}
   m_ShaderKeywords: 
@@ -29,7 +28,7 @@ Material:
     m_Colors:
     - BumpMapScale: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Distort: {r: -0.0005000023, g: -0.00030000138, b: 0, a: 0}
+    - _Distort: {r: -0.00060787, g: -0.00015826817, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _ProjectorClip_0: {r: -0.015438232, g: -0.025866693, b: 0.14460614, a: 0.29360974}
     - _ProjectorClip_1: {r: 0.0047582523, g: 0.14523815, b: 0.026487738, a: 0.0030641258}
