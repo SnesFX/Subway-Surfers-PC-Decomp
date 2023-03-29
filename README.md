@@ -2,6 +2,8 @@
 
 * A decompilation of the old Subway Surfers PC/Microsoft Store build.
 
+* Note: This is still a work in progress decompilation, so don't expect everything to work from the start.
+
 # Requirements
 
 * [Unity Hub](https://unity.com/download)
