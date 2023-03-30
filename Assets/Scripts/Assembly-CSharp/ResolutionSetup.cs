@@ -40,6 +40,17 @@ public class ResolutionSetup : MonoBehaviour
 				usedAtlasses[j].replacement = highResAtlasses[j];
 			}
 		}
+		else
+		{
+			for (int k = 0; k < usedFonts.Length; k++)
+			{
+				usedFonts[k].replacement = lowResFonts[k];
+			}
+			for (int l = 0; l < usedAtlasses.Length; l++)
+			{
+				usedAtlasses[l].replacement = lowResAtlasses[l];
+			}
+		}
 	}
 
 	private void OnDisable()

@@ -7,14 +7,14 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: material_effect_paintSpray
-  m_Shader: {fileID: 4800000, guid: ae5ef6b8b7a4aeb4eba831e7eecd8336, type: 3}
+  m_Shader: {fileID: 4800000, guid: 97b26854dae0e4c4585743a96877945c, type: 3}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 5db4ae4aa755de24597ce9a447e88780, type: 3}
+        m_Texture: {fileID: 2800000, guid: 972ef7e48b6363e40b7104eaff1c8cec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

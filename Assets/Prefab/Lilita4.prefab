@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1469531394648906}
+  m_RootGameObject: {fileID: 1402998553505148}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1469531394648906
+--- !u!1 &1402998553505148
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4965913646005134}
-  - 114: {fileID: 114819862287427049}
+  - 4: {fileID: 4850193417595526}
+  - 114: {fileID: 114550257097275511}
   m_Layer: 0
   m_Name: Lilita4
   m_TagString: Untagged
@@ -28,28 +28,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4965913646005134
+--- !u!4 &4850193417595526
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469531394648906}
+  m_GameObject: {fileID: 1402998553505148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &114819862287427049
+--- !u!114 &114550257097275511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469531394648906}
+  m_GameObject: {fileID: 1402998553505148}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
   m_Name:
-  mMat: {fileID: 2100000, guid: 6b0c560d31756ee4fb1cbe9053fd10fb, type: 2}
+  mMat: {fileID: 2100000, guid: fe60b57a6edc77544aac964dbe007f3a, type: 2}
   mUVRect:
     serializedVersion: 2
     x: 0
@@ -2115,4 +2115,4 @@ MonoBehaviour:
   mSpacingX: 0
   mSpacingY: 0
   mAtlas: {fileID: 0}
-  mReplacement: {fileID: 114449938096270772, guid: f9f433d00cf0475458c0c167e944be44, type: 2}
+  mReplacement: {fileID: 114718772014911428, guid: 683efc7abac43b34eb2dae690faf29d5, type: 2}

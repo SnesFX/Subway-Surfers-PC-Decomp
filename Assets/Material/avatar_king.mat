@@ -7,14 +7,14 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: avatar_king
-  m_Shader: {fileID: 4800000, guid: 6edfb67db12849941935de0a9c283b3d, type: 3}
+  m_Shader: {fileID: 4800000, guid: e243fdbd6a29b3f4687f42585d9e71f7, type: 3}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: c27c8aa5aa175e04b951eac6329c8934, type: 3}
+        m_Texture: {fileID: 2800000, guid: a4002fa933b8bd1459d9c36188edee76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

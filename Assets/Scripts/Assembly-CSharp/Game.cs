@@ -333,6 +333,8 @@ public class Game : MonoBehaviour
 
 	public void Update()
 	{
+		Accelerometer.raw(out accelData);
+		accelReadingX = Mathf.Lerp(accelReadingX, (float)accelData.x, 0.01f);
 		float t = Time.time - startTime;
 		currentLevelSpeed = Speed(t);
 		currentThread.MoveNext();

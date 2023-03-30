@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1666854667557831}
+  m_RootGameObject: {fileID: 1815891941741312}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1666854667557831
+--- !u!1 &1815891941741312
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4808410175833305}
-  - 114: {fileID: 114773812405421961}
+  - 4: {fileID: 4346239787712564}
+  - 114: {fileID: 114884610922553100}
   m_Layer: 0
   m_Name: Titan20
   m_TagString: Untagged
@@ -28,28 +28,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4808410175833305
+--- !u!4 &4346239787712564
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1666854667557831}
+  m_GameObject: {fileID: 1815891941741312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &114773812405421961
+--- !u!114 &114884610922553100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1666854667557831}
+  m_GameObject: {fileID: 1815891941741312}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
   m_Name:
-  mMat: {fileID: 2100000, guid: 314941a17a16f2142a48f8b707ba3897, type: 2}
+  mMat: {fileID: 2100000, guid: 687c0b72503b3454c835cfb74c4acca8, type: 2}
   mUVRect:
     serializedVersion: 2
     x: 0.4921875
@@ -826,5 +826,5 @@ MonoBehaviour:
       advance: 4
   mSpacingX: 0
   mSpacingY: 0
-  mAtlas: {fileID: 114227712074521707, guid: 3f1b98d193615a04dbaa9a5d6992d5f3, type: 2}
+  mAtlas: {fileID: 114331149878753281, guid: 084fdf029c2b5504a9dbb3b969b5e7a2, type: 2}
   mReplacement: {fileID: 0}

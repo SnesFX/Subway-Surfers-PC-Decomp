@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1539824516217808}
+  m_RootGameObject: {fileID: 1035034376159372}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1539824516217808
+--- !u!1 &1035034376159372
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4904815910738521}
-  - 33: {fileID: 33441941829870746}
-  - 23: {fileID: 23771285052976565}
+  - 4: {fileID: 4893858390578722}
+  - 33: {fileID: 33824663840228271}
+  - 23: {fileID: 23084557483008740}
   m_Layer: 0
   m_Name: emerald
   m_TagString: Untagged
@@ -29,37 +29,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4904815910738521
+--- !u!4 &4893858390578722
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1539824516217808}
+  m_GameObject: {fileID: 1035034376159372}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!33 &33441941829870746
+--- !u!33 &33824663840228271
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1539824516217808}
-  m_Mesh: {fileID: 4300000, guid: e35d71da8c08ec04e86dc4f0e620e04f, type: 2}
---- !u!23 &23771285052976565
+  m_GameObject: {fileID: 1035034376159372}
+  m_Mesh: {fileID: 4300000, guid: 9d5a5af2623886144a40c77250b32b64, type: 2}
+--- !u!23 &23084557483008740
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1539824516217808}
+  m_GameObject: {fileID: 1035034376159372}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 344fe5815c09c23419c7dc09af61ccc5, type: 2}
+  - {fileID: 2100000, guid: e421bd91a61791647aced83b8f0c9c3c, type: 2}
   m_SubsetIndices: []
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0

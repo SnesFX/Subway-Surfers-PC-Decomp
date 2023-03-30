@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1044744339458971}
+  m_RootGameObject: {fileID: 1612201764154464}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1044744339458971
+--- !u!1 &1612201764154464
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4756758280308447}
-  - 114: {fileID: 114844263590206887}
+  - 4: {fileID: 4821823989538929}
+  - 114: {fileID: 114055698734591382}
   m_Layer: 0
   m_Name: Titan2
   m_TagString: Untagged
@@ -28,28 +28,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4756758280308447
+--- !u!4 &4821823989538929
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1044744339458971}
+  m_GameObject: {fileID: 1612201764154464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &114844263590206887
+--- !u!114 &114055698734591382
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1044744339458971}
+  m_GameObject: {fileID: 1612201764154464}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
   m_Name:
-  mMat: {fileID: 2100000, guid: 6b0c560d31756ee4fb1cbe9053fd10fb, type: 2}
+  mMat: {fileID: 2100000, guid: fe60b57a6edc77544aac964dbe007f3a, type: 2}
   mUVRect:
     serializedVersion: 2
     x: 0
@@ -2115,4 +2115,4 @@ MonoBehaviour:
   mSpacingX: 0
   mSpacingY: 0
   mAtlas: {fileID: 0}
-  mReplacement: {fileID: 114845487196270809, guid: c65d40771ca93d44aa5009f390e95b3b, type: 2}
+  mReplacement: {fileID: 114789733998910792, guid: b1b5b0ebc3f3f6d4b97b0e9d454bb661, type: 2}

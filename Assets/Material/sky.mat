@@ -7,14 +7,14 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: sky
-  m_Shader: {fileID: 4800000, guid: 89ee74231cdc0854eb07099e2f4e7105, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2b5726f1109d4094891f8e0fa52bc1a9, type: 3}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: e2c47e362f04beb428560a411e309cf3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 011840a9ae8022344ae57faee81abfe8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

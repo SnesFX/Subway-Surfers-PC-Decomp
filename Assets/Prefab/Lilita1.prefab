@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1020955902097792}
+  m_RootGameObject: {fileID: 1328328423084570}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1020955902097792
+--- !u!1 &1328328423084570
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4842997327420127}
-  - 114: {fileID: 114116549798493055}
+  - 4: {fileID: 4024059036225096}
+  - 114: {fileID: 114271719199804680}
   m_Layer: 0
   m_Name: Lilita1
   m_TagString: Untagged
@@ -28,28 +28,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4842997327420127
+--- !u!4 &4024059036225096
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1020955902097792}
+  m_GameObject: {fileID: 1328328423084570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &114116549798493055
+--- !u!114 &114271719199804680
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1020955902097792}
+  m_GameObject: {fileID: 1328328423084570}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
   m_Name:
-  mMat: {fileID: 2100000, guid: 6b0c560d31756ee4fb1cbe9053fd10fb, type: 2}
+  mMat: {fileID: 2100000, guid: fe60b57a6edc77544aac964dbe007f3a, type: 2}
   mUVRect:
     serializedVersion: 2
     x: 0
@@ -2115,4 +2115,4 @@ MonoBehaviour:
   mSpacingX: 0
   mSpacingY: 0
   mAtlas: {fileID: 0}
-  mReplacement: {fileID: 114519001110682381, guid: 413b32538efacc5449dbb9b291063bfc, type: 2}
+  mReplacement: {fileID: 114977712003329675, guid: 0aa2c7573cef38d4ab9e9ac0a15780c6, type: 2}

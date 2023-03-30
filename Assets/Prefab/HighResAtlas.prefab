@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1439335698853219}
+  m_RootGameObject: {fileID: 1703178196575640}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1439335698853219
+--- !u!1 &1703178196575640
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4418584805317651}
-  - 114: {fileID: 114626226437404659}
+  - 4: {fileID: 4261457061754133}
+  - 114: {fileID: 114336239380988413}
   m_Layer: 0
   m_Name: HighResAtlas
   m_TagString: Untagged
@@ -28,28 +28,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4418584805317651
+--- !u!4 &4261457061754133
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1439335698853219}
+  m_GameObject: {fileID: 1703178196575640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &114626226437404659
+--- !u!114 &114336239380988413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1439335698853219}
+  m_GameObject: {fileID: 1703178196575640}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
   m_Name:
-  material: {fileID: 2100000, guid: ab1db023d36567e489953c8a53d1b239, type: 2}
+  material: {fileID: 2100000, guid: 2711a7d4becb92b41b0080b4c4565b1f, type: 2}
   sprites:
   - name: button_generic_2_outline
     outer:

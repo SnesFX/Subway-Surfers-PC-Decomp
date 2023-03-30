@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1800423634300724}
+  m_RootGameObject: {fileID: 1844886284610029}
   m_IsPrefabParent: 1
   m_IsExploded: 0
---- !u!1 &1800423634300724
+--- !u!1 &1844886284610029
 GameObject:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4573419185764213}
-  - 33: {fileID: 33621643786133679}
-  - 23: {fileID: 23237811401321508}
+  - 4: {fileID: 4804277368682060}
+  - 33: {fileID: 33409541388743950}
+  - 23: {fileID: 23141178886342408}
   m_Layer: 0
   m_Name: headstart_small
   m_TagString: Untagged
@@ -29,37 +29,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4573419185764213
+--- !u!4 &4804277368682060
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1800423634300724}
+  m_GameObject: {fileID: 1844886284610029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 82.801834, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!33 &33621643786133679
+--- !u!33 &33409541388743950
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1800423634300724}
-  m_Mesh: {fileID: 4300000, guid: 4c84bb4e11f0b294f9fffbaf29973d42, type: 2}
---- !u!23 &23237811401321508
+  m_GameObject: {fileID: 1844886284610029}
+  m_Mesh: {fileID: 4300000, guid: dd1ab21163c5d8c4d92166f3bbbbf5b1, type: 2}
+--- !u!23 &23141178886342408
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1800423634300724}
+  m_GameObject: {fileID: 1844886284610029}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 344fe5815c09c23419c7dc09af61ccc5, type: 2}
+  - {fileID: 2100000, guid: e421bd91a61791647aced83b8f0c9c3c, type: 2}
   m_SubsetIndices: []
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
